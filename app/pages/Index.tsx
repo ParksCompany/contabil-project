@@ -5,7 +5,7 @@ import HowItWorks from '@/app/_components/home/HowItWorks';
 import AboutPreview from '@/app/_components/home/AboutPreview';
 import LocationSection from '@/app/_components/home/LocationSection';
 
-export default function Home() {
+export default function Index() {
   return (
     <Layout>
       <HeroSection />
@@ -15,5 +15,4 @@ export default function Home() {
       <LocationSection />
     </Layout>
   );
-}
-
+};
