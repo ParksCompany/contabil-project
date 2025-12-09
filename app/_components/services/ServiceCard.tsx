@@ -8,8 +8,16 @@ interface ServiceCardProps {
   deadline: string;
   icon: React.ReactNode;
   href: string;
-  animationDelay?: string;
+  animationDelay?: "0ms" | "100ms" | "200ms" | "300ms" | "400ms";
 }
+
+const delayClassMap: Record<string, string> = {
+  "0ms": "delay-0",
+  "100ms": "delay-100",
+  "200ms": "delay-200",
+  "300ms": "delay-300",
+  "400ms": "delay-400",
+};
 
 export default function ServiceCard({
   category,
@@ -20,10 +28,11 @@ export default function ServiceCard({
   href,
   animationDelay = "0ms",
 }: ServiceCardProps) {
+  const delayClass = delayClassMap[animationDelay] || "delay-0";
+  
   return (
     <div
-      className="group bg-card border-border card-hover animate-fade-up rounded-2xl border p-6"
-      style={{ animationDelay }}
+      className={`group bg-card border-border card-hover animate-fade-up ${delayClass} rounded-2xl border p-6`}
     >
       <div className="mb-4 flex items-start gap-4">
         <div className="bg-primary/10 group-hover:bg-primary flex h-14 w-14 shrink-0 items-center justify-center rounded-xl transition-all duration-300 group-hover:scale-110">

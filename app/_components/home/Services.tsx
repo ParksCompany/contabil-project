@@ -2,8 +2,8 @@ import { Button } from "@/app/_components/ui/button";
 
 export default function Services() {
     return(
-        <section className="section-padding bg-background">
-            <div className="container-custom">
+        <section className="py-16 md:py-20 lg:py-24 bg-background">
+            <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="text-center max-w-2xl mx-auto flex flex-col gap-4 mb-12">
                     <span className="inline-block text-sm font-semibold text-primary tracking-wide uppercase">Nossos Serviços</span>
                     <h2 className="text-3xl md:text-4xl font-bold text-foreground">Soluções completas para sua empresa</h2>
@@ -12,7 +12,7 @@ export default function Services() {
                     </p>
                 </div>
                 <div className="flex flex-col md:flex-row lg:flex-row flex-wrap gap-6 mb-12">
-                    <div className="group p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up flex flex-col gap-5 flex-1 min-w-[280px] md:flex-[1_1_calc(50%-12px)] lg:flex-[1_1_calc(25%-18px)]" style={{ animationDelay: '0ms' }}>
+                    <div className="group p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up delay-0 flex flex-col gap-5 flex-1 min-w-[280px] md:flex-[1_1_calc(50%-12px)] lg:flex-[1_1_calc(25%-18px)]">
                         <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-building2 w-7 h-7 text-primary group-hover:text-primary-foreground transition-colors">
                             <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
@@ -40,7 +40,7 @@ export default function Services() {
                             </svg>
                         </a>
                     </div>
-                    <div className="group p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up flex flex-col gap-5 flex-1 min-w-[280px] md:flex-[1_1_calc(50%-12px)] lg:flex-[1_1_calc(25%-18px)]" style={{ animationDelay: '100ms' }}>
+                    <div className="group p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up delay-100 flex flex-col gap-5 flex-1 min-w-[280px] md:flex-[1_1_calc(50%-12px)] lg:flex-[1_1_calc(25%-18px)]">
                         <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-users w-7 h-7 text-primary group-hover:text-primary-foreground transition-colors">
                                 <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
@@ -65,7 +65,7 @@ export default function Services() {
                             </svg>
                         </a>
                     </div>
-                    <div className="group p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up flex flex-col gap-5 flex-1 min-w-[280px] md:flex-[1_1_calc(50%-12px)] lg:flex-[1_1_calc(25%-18px)]" style={{ animationDelay: '200ms' }}>
+                    <div className="group p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up delay-200 flex flex-col gap-5 flex-1 min-w-[280px] md:flex-[1_1_calc(50%-12px)] lg:flex-[1_1_calc(25%-18px)]">
                         <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-file-text w-7 h-7 text-primary group-hover:text-primary-foreground transition-colors">
                                 <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
@@ -91,7 +91,7 @@ export default function Services() {
                             </svg>
                         </a>
                     </div>
-                    <div className="group p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up flex flex-col gap-5 flex-1 min-w-[280px] md:flex-[1_1_calc(50%-12px)] lg:flex-[1_1_calc(25%-18px)]" style={{ animationDelay: '300ms' }}>
+                    <div className="group p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up delay-300 flex flex-col gap-5 flex-1 min-w-[280px] md:flex-[1_1_calc(50%-12px)] lg:flex-[1_1_calc(25%-18px)]">
                         <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-chart-column w-7 h-7 text-primary group-hover:text-primary-foreground transition-colors">
                                 <path d="M3 3v16a2 2 0 0 0 2 2h16"></path>

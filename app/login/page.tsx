@@ -8,8 +8,8 @@ export default function Login() {
   return (
     <main className="flex-1 pt-16 md:pt-20">
       <Header />
-      <section className="section-padding bg-muted/30">
-        <div className="container-custom">
+      <section className="py-16 md:py-20 lg:py-24 bg-muted/30">
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-md">
             <div className="animate-fade-up mb-8 text-center">
               <div className="bg-primary shadow-emerald-subtle mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-xl">

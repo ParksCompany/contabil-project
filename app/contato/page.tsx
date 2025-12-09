@@ -8,12 +8,9 @@ export default function Contato() {
   return (
     <main className="flex-1 pt-16 md:pt-20">
       <Header />
-      <section
-        className="relative overflow-hidden py-20 md:py-28"
-        style={{ background: "var(--gradient-hero)" }}
-      >
+      <section className="relative overflow-hidden py-20 md:py-28 bg-gradient-hero">
         <div className="bg-background/5 absolute top-20 left-10 h-72 w-72 rounded-full blur-3xl"></div>
-        <div className="container-custom relative z-10">
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="animate-fade-up max-w-3xl">
             <span className="text-background/80 mb-4 inline-block text-sm font-semibold tracking-wide uppercase">
               Contato
@@ -29,8 +26,8 @@ export default function Contato() {
         </div>
       </section>
 
-      <section className="section-padding bg-background">
-        <div className="container-custom">
+      <section className="py-16 md:py-20 lg:py-24 bg-background">
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-3">
             <div className="animate-fade-up space-y-6">
               <h2 className="text-foreground mb-6 text-2xl font-semibold">

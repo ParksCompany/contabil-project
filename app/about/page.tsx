@@ -6,9 +6,9 @@ export default function Sobre() {
     return(
             <main className="flex-1 pt-16 md:pt-20">
                 <Header />
-                <section className="relative overflow-hidden py-20 md:py-28" style={{ background: 'var(--gradient-hero)' }}>
+                <section className="relative overflow-hidden py-20 md:py-28 bg-gradient-hero">
                     <div className="absolute top-20 left-10 w-72 h-72 bg-background/5 rounded-full blur-3xl"></div>
-                    <div className="container-custom relative z-10">
+                    <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
                         <div className="max-w-3xl animate-fade-up">
                             <span className="inline-block text-sm font-semibold text-background/80 mb-4 tracking-wide uppercase">Sobre Nós</span>
                             <h1 className="text-4xl md:text-5xl font-bold text-background mb-6">Conheça a Contabilidade Modelo</h1>
@@ -17,8 +17,8 @@ export default function Sobre() {
                     </div>
                 </section>
 
-                <section className="section-padding bg-background">
-                    <div className="container-custom">
+                <section className="py-16 md:py-20 lg:py-24 bg-background">
+                    <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                             <div className="animate-fade-up">
                                 <span className="inline-block text-sm font-semibold text-primary mb-3 tracking-wide uppercase">Nossa História</span>
@@ -45,8 +45,8 @@ export default function Sobre() {
                     </div>
                 </section>
 
-                <section className="section-padding bg-muted/50">
-                    <div className="container-custom">
+                <section className="py-16 md:py-20 lg:py-24 bg-muted/50">
+                    <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div className="p-8 rounded-2xl bg-card border border-border card-hover animate-fade-up">
                                 <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
@@ -74,14 +74,14 @@ export default function Sobre() {
                     </div>
                 </section>
 
-                <section className="section-padding bg-background">
-                    <div className="container-custom">
+                <section className="py-16 md:py-20 lg:py-24 bg-background">
+                    <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
                         <div className="text-center max-w-2xl mx-auto mb-16">
                             <span className="inline-block text-sm font-semibold text-primary mb-3 tracking-wide uppercase">Nossos Valores</span>
                             <h2 className="text-3xl md:text-4xl font-bold text-foreground">O que nos guia</h2>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            <div className="p-6 rounded-2xl bg-card border border-border card-hover text-center animate-fade-up" style={{ animationDelay: '0ms' }}>
+                            <div className="p-6 rounded-2xl bg-card border border-border card-hover text-center animate-fade-up delay-0">
                                 <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-heart w-7 h-7 text-primary">
                                         <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
@@ -90,7 +90,7 @@ export default function Sobre() {
                                 <h3 className="text-lg font-semibold text-foreground mb-2">Comprometimento</h3>
                                 <p className="text-muted-foreground text-sm">Dedicação total aos nossos clientes, buscando sempre superar expectativas.</p>
                             </div>
-                            <div className="p-6 rounded-2xl bg-card border border-border card-hover text-center animate-fade-up" style={{ animationDelay: '100ms' }}>
+                            <div className="p-6 rounded-2xl bg-card border border-border card-hover text-center animate-fade-up delay-100">
                                 <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-shield w-7 h-7 text-primary">
                                         <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
@@ -99,7 +99,7 @@ export default function Sobre() {
                                 <h3 className="text-lg font-semibold text-foreground mb-2">Ética</h3>
                                 <p className="text-muted-foreground text-sm">Atuação transparente e íntegra em todas as nossas relações.</p>
                             </div>
-                            <div className="p-6 rounded-2xl bg-card border border-border card-hover text-center animate-fade-up" style={{ animationDelay: '200ms' }}>
+                            <div className="p-6 rounded-2xl bg-card border border-border card-hover text-center animate-fade-up delay-200">
                                 <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-users w-7 h-7 text-primary">
                                         <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
@@ -111,7 +111,7 @@ export default function Sobre() {
                                 <h3 className="text-lg font-semibold text-foreground mb-2">Trabalho em Equipe</h3>
                                 <p className="text-muted-foreground text-sm">Colaboração entre setores para oferecer soluções completas.</p>
                             </div>
-                            <div className="p-6 rounded-2xl bg-card border border-border card-hover text-center animate-fade-up" style={{ animationDelay: '300ms' }}>
+                            <div className="p-6 rounded-2xl bg-card border border-border card-hover text-center animate-fade-up delay-300">
                                 <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-lightbulb w-7 h-7 text-primary">
                                         <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
@@ -126,27 +126,27 @@ export default function Sobre() {
                     </div>
                 </section>
 
-                <section className="section-padding bg-muted/50">
-                    <div className="container-custom">
+                <section className="py-16 md:py-20 lg:py-24 bg-muted/50">
+                    <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
                         <div className="text-center max-w-2xl mx-auto mb-16">
                             <span className="inline-block text-sm font-semibold text-primary mb-3 tracking-wide uppercase">Nossa Estrutura</span>
                             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Setores especializados</h2>
                             <p className="text-muted-foreground text-lg">Organizamos nossa equipe em departamentos especializados para oferecer o melhor atendimento em cada área.</p>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div className="p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up" style={{ animationDelay: '0ms' }}>
+                            <div className="p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up delay-0">
                                 <h3 className="text-xl font-semibold text-foreground mb-3">Setor Societário</h3>
                                 <p className="text-muted-foreground">Responsável por abertura, alteração e encerramento de empresas, além de toda documentação societária.</p>
                             </div>
-                            <div className="p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up" style={{ animationDelay: '100ms' }}>
+                            <div className="p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up delay-100">
                                 <h3 className="text-xl font-semibold text-foreground mb-3">Departamento Pessoal</h3>
                                 <p className="text-muted-foreground">Cuida de folha de pagamento, admissões, demissões, férias e toda gestão de recursos humanos.</p>
                             </div>
-                            <div className="p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up" style={{ animationDelay: '200ms' }}>
+                            <div className="p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up delay-200">
                                 <h3 className="text-xl font-semibold text-foreground mb-3">Departamento Fiscal</h3>
                                 <p className="text-muted-foreground">Gerencia declarações fiscais, certidões, planejamento tributário e obrigações acessórias.</p>
                             </div>
-                            <div className="p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up" style={{ animationDelay: '300ms' }}>
+                            <div className="p-6 rounded-2xl bg-card border border-border card-hover animate-fade-up delay-300">
                                 <h3 className="text-xl font-semibold text-foreground mb-3">Departamento Contábil</h3>
                                 <p className="text-muted-foreground">Elabora balanços, demonstrações contábeis e relatórios gerenciais para tomada de decisão.</p>
                             </div>

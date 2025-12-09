@@ -11,14 +11,11 @@ export default function Services() {
       <Header />
       <ServicesHero />
 
-      <section className="section-padding bg-background">
-        <div className="container-custom">
+      <section className="py-16 md:py-20 lg:py-24 bg-background">
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
           <ServiceFilters />
           <div className="mt-12 flex flex-col gap-6 md:flex-col lg:flex-col">
-          <div
-            className="group bg-card border-border card-hover animate-fade-up rounded-2xl border p-6"
-            style={{ animationDelay: "0ms" }}
-          >
+          <div className="group bg-card border-border card-hover animate-fade-up delay-0 rounded-2xl border p-6">
             <div className="mb-4 flex items-start gap-4">
               <div className="bg-primary/10 group-hover:bg-primary flex h-14 w-14 shrink-0 items-center justify-center rounded-xl transition-all duration-300 group-hover:scale-110">
                 <svg
@@ -96,7 +93,7 @@ export default function Services() {
           </div>
           <div
             className="group bg-card border-border card-hover animate-fade-up rounded-2xl border p-6"
-            style={{ animationDelay: "50ms" }}
+            className="group bg-card border-border card-hover animate-fade-up delay-50 rounded-2xl border p-6"
           >
             <div className="mb-4 flex items-start gap-4">
               <div className="bg-primary/10 group-hover:bg-primary flex h-14 w-14 shrink-0 items-center justify-center rounded-xl transition-all duration-300 group-hover:scale-110">
@@ -170,7 +167,7 @@ export default function Services() {
           </div>
           <div
             className="group bg-card border-border card-hover animate-fade-up rounded-2xl border p-6"
-            style={{ animationDelay: "100ms" }}
+            className="group bg-card border-border card-hover animate-fade-up delay-100 rounded-2xl border p-6"
           >
             <div className="mb-4 flex items-start gap-4">
               <div className="bg-primary/10 group-hover:bg-primary flex h-14 w-14 shrink-0 items-center justify-center rounded-xl transition-all duration-300 group-hover:scale-110">
@@ -244,7 +241,7 @@ export default function Services() {
           </div>
           <div
             className="group bg-card border-border card-hover animate-fade-up rounded-2xl border p-6"
-            style={{ animationDelay: "150ms" }}
+            className="group bg-card border-border card-hover animate-fade-up delay-150 rounded-2xl border p-6"
           >
             <div className="mb-4 flex items-start gap-4">
               <div className="bg-primary/10 group-hover:bg-primary flex h-14 w-14 shrink-0 items-center justify-center rounded-xl transition-all duration-300 group-hover:scale-110">
@@ -318,7 +315,7 @@ export default function Services() {
           </div>
           <div
             className="group bg-card border-border card-hover animate-fade-up rounded-2xl border p-6"
-            style={{ animationDelay: "200ms" }}
+            className="group bg-card border-border card-hover animate-fade-up delay-200 rounded-2xl border p-6"
           >
             <div className="mb-4 flex items-start gap-4">
               <div className="bg-primary/10 group-hover:bg-primary flex h-14 w-14 shrink-0 items-center justify-center rounded-xl transition-all duration-300 group-hover:scale-110">
@@ -393,7 +390,7 @@ export default function Services() {
           </div>
           <div
             className="group bg-card border-border card-hover animate-fade-up rounded-2xl border p-6"
-            style={{ animationDelay: "250ms" }}
+            className="group bg-card border-border card-hover animate-fade-up delay-250 rounded-2xl border p-6"
           >
             <div className="mb-4 flex items-start gap-4">
               <div className="bg-primary/10 group-hover:bg-primary flex h-14 w-14 shrink-0 items-center justify-center rounded-xl transition-all duration-300 group-hover:scale-110">
@@ -467,7 +464,7 @@ export default function Services() {
           </div>
           <div
             className="group bg-card border-border card-hover animate-fade-up rounded-2xl border p-6"
-            style={{ animationDelay: "300ms" }}
+            className="group bg-card border-border card-hover animate-fade-up delay-300 rounded-2xl border p-6"
           >
             <div className="mb-4 flex items-start gap-4">
               <div className="bg-primary/10 group-hover:bg-primary flex h-14 w-14 shrink-0 items-center justify-center rounded-xl transition-all duration-300 group-hover:scale-110">
@@ -543,7 +540,7 @@ export default function Services() {
           </div>
           <div
             className="group bg-card border-border card-hover animate-fade-up rounded-2xl border p-6"
-            style={{ animationDelay: "350ms" }}
+            className="group bg-card border-border card-hover animate-fade-up delay-350 rounded-2xl border p-6"
           >
             <div className="mb-4 flex items-start gap-4">
               <div className="bg-primary/10 group-hover:bg-primary flex h-14 w-14 shrink-0 items-center justify-center rounded-xl transition-all duration-300 group-hover:scale-110">
@@ -616,7 +613,7 @@ export default function Services() {
           </div>
           <div
             className="group bg-card border-border card-hover animate-fade-up rounded-2xl border p-6"
-            style={{ animationDelay: "400ms" }}
+            className="group bg-card border-border card-hover animate-fade-up delay-400 rounded-2xl border p-6"
           >
             <div className="mb-4 flex items-start gap-4">
               <div className="bg-primary/10 group-hover:bg-primary flex h-14 w-14 shrink-0 items-center justify-center rounded-xl transition-all duration-300 group-hover:scale-110">
@@ -689,7 +686,7 @@ export default function Services() {
           </div>
           <div
             className="group bg-card border-border card-hover animate-fade-up rounded-2xl border p-6"
-            style={{ animationDelay: "450ms" }}
+            className="group bg-card border-border card-hover animate-fade-up delay-450 rounded-2xl border p-6"
           >
             <div className="mb-4 flex items-start gap-4">
               <div className="bg-primary/10 group-hover:bg-primary flex h-14 w-14 shrink-0 items-center justify-center rounded-xl transition-all duration-300 group-hover:scale-110">

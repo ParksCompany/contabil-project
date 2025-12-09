@@ -1,11 +1,8 @@
 export default function ServicesHero() {
   return (
-    <section
-      className="relative overflow-hidden py-20 md:py-28"
-      style={{ background: "var(--gradient-hero)" }}
-    >
+    <section className="relative overflow-hidden py-20 md:py-28 bg-gradient-hero">
       <div className="bg-background/5 absolute top-20 left-10 h-72 w-72 rounded-full blur-3xl"></div>
-      <div className="container-custom relative z-10">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="animate-fade-up max-w-3xl">
           <span className="text-background/80 mb-4 inline-block text-sm font-semibold tracking-wide uppercase">
             Nossos Serviços
