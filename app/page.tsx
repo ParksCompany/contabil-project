@@ -8,14 +8,16 @@ import Footer from "./_components/Footer";
 
 export default function Page() {
   return (
-    <main className="bg-white flex-1 pt-16 md:pt-20">
+    <>
       <Header />
-      <HeroSection />
-      <Services />
-      <HowItWorks />
-      <About />
-      <Location />
-      <Footer />
-    </main>
+      <main className="bg-white flex-1 pt-16 md:pt-20">
+        <HeroSection />
+        <Services />
+        <HowItWorks />
+        <About />
+        <Location />
+        <Footer />
+      </main>
+    </>
   );
 }

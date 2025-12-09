@@ -3,8 +3,7 @@ import { Button } from "./ui/button";
 
 export default function HeroSection() {
     return (
-      <main className="bg-background flex items-center justify-center pt-16 md:pt-20">
-        <section className="relative overflow-hidden">
+      <section className="relative overflow-hidden bg-background flex items-center justify-center">
           <div
             className="absolute inset-0 -z-10"
             style={{ background: "var(--gradient-primary)" }}
@@ -93,7 +92,7 @@ export default function HeroSection() {
                   </span>
                 </div>
               </div>
-              <div className="sm:flex-ow animate-fade-up flex flex-col gap-4 delay-400">
+              <div className="sm:flex-row animate-fade-up flex flex-col gap-4 delay-400">
                 <a href="">
                   <Button>
                     Solicitar Serviço
@@ -131,6 +130,5 @@ export default function HeroSection() {
             </svg>
           </div>
         </section>
-      </main>
     );
 }

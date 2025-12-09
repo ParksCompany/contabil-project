@@ -125,6 +125,16 @@
     --sidebar-border: oklch(1 0 0 / 10%);
     --sidebar-ring: oklch(0.405 0.101 131.063);
   }
+
+  /* Variáveis customizadas para gradientes e sombras */
+  :root {
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary) / 0.8) 100%);
+    --shadow-emerald-subtle: 0 2px 8px -2px hsl(var(--primary) / 0.2);
+    --shadow-emerald-glow: 0 4px 16px -4px hsl(var(--primary) / 0.4);
+    --shadow-card: 0 1px 3px 0 hsl(var(--foreground) / 0.1), 0 1px 2px -1px hsl(var(--foreground) / 0.1);
+    --shadow-neon: 0 0 20px hsl(var(--primary) / 0.3);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
   
 
 /* =========================================
@@ -152,6 +162,44 @@
     box-shadow: var(--shadow-card);
   }
 
+  /* efeito glass para header */
+  .glass-effect {
+    @apply bg-white/80 dark:bg-foreground/80 backdrop-blur-md;
+  }
+
+  /* container customizado */
+  .container-custom {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  /* padding padrão para seções */
+  .section-padding {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  /* efeito hover para cards */
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  /* sombras emerald */
+  .shadow-emerald-subtle {
+    box-shadow: var(--shadow-emerald-subtle);
+  }
+
+  .shadow-emerald-glow {
+    box-shadow: var(--shadow-emerald-glow);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  /* foco para inputs */
+  .input-focus {
+    @apply focus-visible:ring-2 focus-visible:ring-primary/20 focus-visible:border-primary;
+  }
+
   /* foco com ring neon */
   .focus-neon {
     @apply focus-visible:ring-ring focus-visible:ring-offset-background focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none;
@@ -174,11 +222,3 @@
   }
 }
 
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
