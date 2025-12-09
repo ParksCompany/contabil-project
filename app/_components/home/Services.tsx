@@ -32,7 +32,7 @@ export default function Services() {
                                 Abertura, alteração e encerramento de empresas com toda documentação necessária.
                             </p>
                         </div>
-                        <a href="/servicos" className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:gap-2 transition-all">
+                        <a href="/services" className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:gap-2 transition-all">
                             Saiba mais
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-right w-4 h-4">
                                 <path d="M5 12h14"></path>
@@ -57,7 +57,7 @@ export default function Services() {
                                 Folha de pagamento, admissões, rescisões e toda gestão de colaboradores.
                             </p>
                         </div>
-                        <a className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:gap-2 transition-all" href="/servicos">
+                        <a className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:gap-2 transition-all" href="/services">
                             Saiba mais
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-right w-4 h-4">
                             <path d="M5 12h14"></path>
@@ -83,7 +83,7 @@ export default function Services() {
                                 Declarações, certidões e planejamento tributário para otimizar sua carga fiscal.
                             </p>
                         </div>
-                        <a className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:gap-2 transition-all" href="/servicos">
+                        <a className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:gap-2 transition-all" href="/services">
                             Saiba mais
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-right w-4 h-4">
                                 <path d="M5 12h14"></path>
@@ -108,7 +108,7 @@ export default function Services() {
                                 Balanços, demonstrações e relatórios contábeis completos para sua empresa.
                             </p>
                         </div>
-                        <a className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:gap-2 transition-all" href="/servicos">
+                        <a className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:gap-2 transition-all" href="/services">
                             Saiba mais
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-right w-4 h-4">
                                 <path d="M5 12h14"></path>
@@ -118,7 +118,7 @@ export default function Services() {
                     </div>
                 </div>
                 <div className="text-center flex flex-col gap-12">
-                    <a href="/servicos">
+                    <a href="/services">
                         <Button className="cursor-pointer inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 shadow-emerald-subtle hover:shadow-emerald-glow h-12 rounded-lg px-8 text-base">
                             Ver Todos os Serviços
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-right w-5 h-5">
@@ -132,3 +132,4 @@ export default function Services() {
         </section>
     )
 }
+

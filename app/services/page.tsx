@@ -1,5 +1,7 @@
-import Header from "@/app/_components/Header";
 import Footer from "@/app/_components/Footer";
+import Header from "@/app/_components/Header";
+import ServiceFilters from "@/app/_components/services/ServiceFilters";
+import ServicesHero from "@/app/_components/services/ServicesHero";
 import { Button } from "@/app/_components/ui/button";
 import Link from "next/link";
 
@@ -7,45 +9,11 @@ export default function Services() {
   return (
     <main className="flex-1 pt-16 md:pt-20">
       <Header />
-      <section
-        className="relative overflow-hidden py-20 md:py-28"
-        style={{ background: "var(--gradient-hero)" }}
-      >
-        <div className="bg-background/5 absolute top-20 left-10 h-72 w-72 rounded-full blur-3xl"></div>
-        <div className="container-custom relative z-10">
-          <div className="animate-fade-up max-w-3xl">
-            <span className="text-background/80 mb-4 inline-block text-sm font-semibold tracking-wide uppercase">
-              Nossos Serviços
-            </span>
-            <h1 className="text-background mb-6 text-4xl font-bold md:text-5xl">
-              Soluções completas para seu negócio
-            </h1>
-            <p className="text-background/80 text-xl">
-              Conheça todos os serviços que oferecemos, organizados por setores
-              especializados para melhor atendê-lo.
-            </p>
-          </div>
-        </div>
-      </section>
+      <ServicesHero />
 
       <section className="section-padding bg-background">
-        <div className="mb-12 flex flex-wrap justify-center gap-2">
-          <Button className="bg-primary text-primary-foreground shadow-emerald-subtle rounded-full px-5 py-2.5 text-sm font-medium transition-all duration-200">
-            Todos os Serviços
-          </Button>
-          <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-full px-5 py-2.5 text-sm font-medium transition-all duration-200">
-            Societário
-          </Button>
-          <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-full px-5 py-2.5 text-sm font-medium transition-all duration-200">
-            Departamento Pessoal
-          </Button>
-          <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-full px-5 py-2.5 text-sm font-medium transition-all duration-200">
-            Departamento Fiscal
-          </Button>
-          <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-full px-5 py-2.5 text-sm font-medium transition-all duration-200">
-            Departamento Contábil
-          </Button>
-        </div>
+        <div className="container-custom">
+          <ServiceFilters />
         <div className="flex flex-col gap-6 md:flex-col lg:flex-col">
           <div
             className="group bg-card border-border card-hover animate-fade-up rounded-2xl border p-6"
@@ -794,6 +762,7 @@ export default function Services() {
               </Button>
             </Link>
           </div>
+        </div>
         </div>
       </section>
       <Footer />

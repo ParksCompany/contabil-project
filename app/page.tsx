@@ -1,9 +1,9 @@
 import Header from "./_components/Header";
-import HeroSection from "./_components/HeroSection";
-import Services from "./_components/Servcices";
-import HowItWorks from "./_components/HowItWorks";
-import About from "./_components/About";
-import Location from "./_components/Location";
+import HeroSection from "./_components/home/HeroSection";
+import Services from "./_components/home/Services";
+import HowItWorks from "./_components/home/HowItWorks";
+import About from "./_components/home/About";
+import Location from "./_components/home/Location";
 import Footer from "./_components/Footer";
 
 export default function Page() {
