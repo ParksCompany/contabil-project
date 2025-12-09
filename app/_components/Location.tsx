@@ -2,13 +2,13 @@ export default function Location() {
     return(
         <section className="section-padding bg-muted/50">
             <div className="container-custom">
-                <div className="text-center max-w-2xl mx-auto mb-16">
-                    <span className="inline-block text-sm font-semibold text-primary mb-3 tracking-wide uppercase">Localização</span>
-                    <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Venha nos visitar</h2>
+                <div className="text-center max-w-2xl mx-auto flex flex-col gap-4">
+                    <span className="inline-block text-sm font-semibold text-primary tracking-wide uppercase">Localização</span>
+                    <h2 className="text-3xl md:text-4xl font-bold text-foreground">Venha nos visitar</h2>
                     <p className="text-muted-foreground text-lg">Estamos localizados em um ponto estratégico de São Paulo, prontos para atendê-lo.</p>
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                    <div className="space-y-6 animate-fade-up">
+                <div className="flex flex-col lg:flex-row gap-8">
+                    <div className="flex flex-col gap-6 animate-fade-up lg:flex-[0_0_33.333%]">
                         <div className="p-6 rounded-2xl bg-card border border-border card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
@@ -17,8 +17,8 @@ export default function Location() {
                                         <circle cx="12" cy="10" r="3"></circle>
                                     </svg>
                                 </div>
-                                <div>
-                                    <h4 className="font-semibold text-foreground mb-1">Endereço</h4>
+                                <div className="flex flex-col gap-1">
+                                    <h4 className="font-semibold text-foreground">Endereço</h4>
                                     <p className="text-muted-foreground text-sm">Av. Paulista, 1000 - Bela Vista<br/>São Paulo - SP, 01310-100</p>
                                 </div>
                             </div>
@@ -30,8 +30,8 @@ export default function Location() {
                                         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                                     </svg>
                                 </div>
-                                <div>
-                                    <h4 className="font-semibold text-foreground mb-1">Telefone</h4>
+                                <div className="flex flex-col gap-1">
+                                    <h4 className="font-semibold text-foreground">Telefone</h4>
                                     <p className="text-muted-foreground text-sm">(11) 3000-0000<br/>(11) 99000-0000</p>
                                 </div>
                             </div>
@@ -44,8 +44,8 @@ export default function Location() {
                                         <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                                     </svg>
                                 </div>
-                                <div>
-                                    <h4 className="font-semibold text-foreground mb-1">E-mail</h4>
+                                <div className="flex flex-col gap-1">
+                                    <h4 className="font-semibold text-foreground">E-mail</h4>
                                     <p className="text-muted-foreground text-sm">contato@contabilidademodelo.com.br</p>
                                 </div>
                             </div>
@@ -58,14 +58,14 @@ export default function Location() {
                                         <polyline points="12 6 12 12 16 14"></polyline>
                                     </svg>
                                 </div>
-                                <div>
-                                    <h4 className="font-semibold text-foreground mb-1">Horário</h4>
+                                <div className="flex flex-col gap-1">
+                                    <h4 className="font-semibold text-foreground">Horário</h4>
                                     <p className="text-muted-foreground text-sm">Segunda a Sexta: 8h às 18h<br/>Sábado: 8h às 12h</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="lg:col-span-2 animate-fade-up delay-200">
+                    <div className="flex-1 animate-fade-up delay-200">
                         <div className="w-full h-full min-h-[400px] rounded-2xl overflow-hidden border border-border shadow-card">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0975455792693!2d-46.65478502374092!3d-23.564616178800204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1699900000000!5m2!1spt-BR!2sbr" width="100%" height="100%" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Localização Contabilidade Modelo" style={{ border: 0, minHeight: '400px' }}></iframe>
                         </div>

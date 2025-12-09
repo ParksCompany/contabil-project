@@ -13,7 +13,7 @@ export default function Header() {
                         </div>
                         <div className="flex flex-col">
                             <span className="font-bold text-lg text-black leading-tight">Contabilidade</span>
-                            <span className="text-xs text-primary font-medium -mt-0.5">Modelo</span>
+                            <span className="text-xs text-primary font-medium">Modelo</span>
                         </div>
                     </Link>
                     <div className="hidden md:flex items-center gap-1">
@@ -29,8 +29,8 @@ export default function Header() {
                         </Link>
 
                         <Link href="/registrar">
-                            <Button variant="create2" className="cursor-pointer">
-                                <User className="w-4 h-4 mr-2" />
+                            <Button variant="create2" className="cursor-pointer flex items-center gap-2">
+                                <User className="w-4 h-4" />
                                 Criar Conta
                             </Button>
                         </Link>

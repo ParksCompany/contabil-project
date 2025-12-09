@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Footer() {
     return(
         <footer className="bg-foreground text-background">
-            <div className="container-custom py-16">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-                    <div className="space-y-4">
+            <div className="container-custom py-16 flex flex-col gap-12">
+                <div className="flex flex-col md:flex-row lg:flex-row flex-wrap gap-12">
+                    <div className="flex flex-col gap-4 flex-1 min-w-[280px] md:flex-[1_1_calc(50%-24px)] lg:flex-[1_1_calc(25%-36px)]">
                         <Link className="flex items-center gap-2" href="/">
                             <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-calculator w-5 h-5 text-primary-foreground">
@@ -25,7 +25,7 @@ export default function Footer() {
                                 <span className="font-bold text-lg text-background leading-tight">
                                     Contabilidade
                                 </span>
-                                <span className="text-xs text-primary font-medium -mt-0.5">
+                                <span className="text-xs text-primary font-medium">
                                     Modelo
                                 </span>
                             </div>
@@ -55,11 +55,11 @@ export default function Footer() {
                             </Link>
                         </div>
                     </div>
-                    <div>
-                        <h4 className="font-semibold text-background mb-4">
+                    <div className="flex flex-col gap-4 flex-1 min-w-[280px] md:flex-[1_1_calc(50%-24px)] lg:flex-[1_1_calc(25%-36px)]">
+                        <h4 className="font-semibold text-background">
                             Links Rápidos
                         </h4>
-                        <ul className="space-y-3">
+                        <ul className="flex flex-col gap-3">
                             <li>
                                 <Link className="text-background/70 hover:text-primary text-sm transition-colors" href="/">
                                     Home
@@ -87,11 +87,11 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div>
-                        <h4 className="font-semibold text-background mb-4">
+                    <div className="flex flex-col gap-4 flex-1 min-w-[280px] md:flex-[1_1_calc(50%-24px)] lg:flex-[1_1_calc(25%-36px)]">
+                        <h4 className="font-semibold text-background">
                             Nossos Serviços
                         </h4>
-                        <ul className="space-y-3">
+                        <ul className="flex flex-col gap-3">
                             <li>
                                 <span className="text-background/70 text-sm">
                                     Abertura de Empresa
@@ -119,13 +119,13 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div>
-                        <h4 className="font-semibold text-background mb-4">
+                    <div className="flex flex-col gap-4 flex-1 min-w-[280px] md:flex-[1_1_calc(50%-24px)] lg:flex-[1_1_calc(25%-36px)]">
+                        <h4 className="font-semibold text-background">
                             Contato
                         </h4>
-                        <ul className="space-y-4">
+                        <ul className="flex flex-col gap-4">
                             <li className="flex items-start gap-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-map-pin w-5 h-5 text-primary mt-0.5 shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-map-pin w-5 h-5 text-primary shrink-0 self-start" style={{ marginTop: '0.125rem' }}>
                                     <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
                                     <circle cx="12" cy="10" r="3"></circle>
                                 </svg>
@@ -163,7 +163,7 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="border-t border-background/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                <div className="border-t border-background/10 flex flex-col md:flex-row items-center justify-between gap-4 pt-8">
                     <p className="text-background/50 text-sm">© 2025 Contabilidade Modelo. Todos os direitos reservados.</p>
                     <div className="flex gap-6">
                         <Link className="text-background/50 hover:text-background text-sm transition-colors" href="/">

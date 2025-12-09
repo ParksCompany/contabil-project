@@ -10,19 +10,19 @@ export default function HeroSection() {
                 <div className="absolute bottom-10 right-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
 
                 <div className="container-custom py-24 md:py-32 lg:py-40">
-                    <div className="max-w-3xl">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 backdrop-blur-sm border border-primary/20 mb-8 animate-fade-up">
+                    <div className="max-w-3xl flex flex-col gap-8">
+                        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 backdrop-blur-sm border border-primary/20 animate-fade-up">
                             <span className="w-2 h-2 rounded-full bg-white animate-pulse-soft"></span>
                             <span className="text-sm text-black/90 font-medium">Contabilidade de confiança para sua empresa</span>
                         </div>
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight mb-6 animate-fade-up delay-100">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight animate-fade-up delay-100">
                             Simplificamos a contabilidade para você
                             <span className="block text-white/80">cescer sem preocupações</span>
                         </h1>
-                        <p className="text-lg md:text-xl text-primary/80 mb-8 max-w-2xl animate-fade-up delay-200">
+                        <p className="text-lg md:text-xl text-primary/80 max-w-2xl animate-fade-up delay-200">
                             Oferecemos soluções contábeis completas e personalizadas. Da abertuda à gestão fiscal, cuidamos de tudo para você focar no que realmente importa: o seu negócio.
                         </p>
-                        <div className="flex flex-wrap gap-4 mb-10 animate-fade-up delay-300">
+                        <div className="flex flex-wrap gap-4 animate-fade-up delay-300">
                             <div className="flex items-center gap-2 text-primary/90">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="curentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-circle-check w-5 h-5 text-white/70">
                                     <circle cx="12" cy="12" r="10"></circle>
