@@ -13,15 +13,15 @@ export default function About() {
                         <h2 className="text-3xl md:text-4xl font-bold text-foreground">
                             Sua parceira de confiança em soluções contábeis
                         </h2>
-                        <div className="flex flex-col gap-6">
-                            <p className="text-muted-foreground text-lg leading-relaxed">
+                        <div className="flex flex-col gap-6 mb-8">
+                            <p className="text-foreground/80 text-lg leading-relaxed">
                                 A Contabilidade Modelo nasceu com o propósito de simplificar a gestão contábil e fiscal das empresas brasileiras. Com mais de 15 anos de experiência, nossa equipe de especialistas trabalha incansavelmente para oferecer soluções personalizadas.
                             </p>
-                            <p className="text-muted-foreground leading-relaxed">
+                            <p className="text-foreground/70 leading-relaxed">
                                 Organizados em setores especializados — Societário, Pessoal, Fiscal e Contábil — garantimos atendimento ágil e preciso para cada necessidade do seu negócio.
                             </p>
                         </div>
-                        <Link href="/sobre">
+                        <Link href="/sobre" className="inline-block">
                             <Button className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 shadow-emerald-subtle hover:shadow-emerald-glow h-12 rounded-lg px-8 text-base">Conheça Nossa História
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-right w-5 h-5">
                                     <path d="M5 12h14"></path>
@@ -42,7 +42,7 @@ export default function About() {
                                 <div className="text-3xl font-bold text-foreground">
                                     15+
                                 </div>
-                                <div className="text-sm text-muted-foreground">
+                                <div className="text-sm text-foreground/70">
                                     Anos de experiência
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ export default function About() {
                                 <div className="text-3xl font-bold text-foreground">
                                     500+
                                 </div>
-                                <div className="text-sm text-muted-foreground">
+                                <div className="text-sm text-foreground/70">
                                     Clientes atendidos
                                 </div>
                             </div>
@@ -85,7 +85,7 @@ export default function About() {
                                 <div className="text-3xl font-bold text-foreground">
                                     1000+
                                 </div>
-                                <div className="text-sm text-muted-foreground">
+                                <div className="text-sm text-foreground/70">
                                     Empresas abertas
                                 </div>
                             </div>
@@ -101,7 +101,7 @@ export default function About() {
                                 <div className="text-3xl font-bold text-foreground">
                                     98%
                                 </div>
-                                <div className="text-sm text-muted-foreground">
+                                <div className="text-sm text-foreground/70">
                                     Satisfação
                                 </div>
                             </div>

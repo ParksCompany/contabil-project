@@ -38,10 +38,10 @@ export default function ServiceCard({
           <h3 className="text-foreground text-xl font-semibold">{title}</h3>
         </div>
       </div>
-      <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+      <p className="text-foreground/70 mb-4 text-sm leading-relaxed">
         {description}
       </p>
-      <div className="text-muted-foreground mb-6 flex items-center gap-2 text-sm">
+      <div className="text-foreground/70 mb-6 flex items-center gap-2 text-sm">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

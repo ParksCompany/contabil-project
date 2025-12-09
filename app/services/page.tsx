@@ -14,7 +14,7 @@ export default function Services() {
       <section className="section-padding bg-background">
         <div className="container-custom">
           <ServiceFilters />
-        <div className="flex flex-col gap-6 md:flex-col lg:flex-col">
+          <div className="mt-12 flex flex-col gap-6 md:flex-col lg:flex-col">
           <div
             className="group bg-card border-border card-hover animate-fade-up rounded-2xl border p-6"
             style={{ animationDelay: "0ms" }}
@@ -51,11 +51,11 @@ export default function Services() {
                 </h3>
               </div>
             </div>
-            <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+            <p className="text-foreground/70 mb-4 text-sm leading-relaxed">
               Constituição completa do seu negócio com toda documentação
               necessária.
             </p>
-            <div className="text-muted-foreground mb-6 flex items-center gap-2 text-sm">
+            <div className="text-foreground/70 mb-6 flex items-center gap-2 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -126,10 +126,10 @@ export default function Services() {
                 </h3>
               </div>
             </div>
-            <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+            <p className="text-foreground/70 mb-4 text-sm leading-relaxed">
               Modificações no contrato social da sua empresa.
             </p>
-            <div className="text-muted-foreground mb-6 flex items-center gap-2 text-sm">
+            <div className="text-foreground/70 mb-6 flex items-center gap-2 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -200,10 +200,10 @@ export default function Services() {
                 </h3>
               </div>
             </div>
-            <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+            <p className="text-foreground/70 mb-4 text-sm leading-relaxed">
               Baixa completa da empresa em todos os órgãos.
             </p>
-            <div className="text-muted-foreground mb-6 flex items-center gap-2 text-sm">
+            <div className="text-foreground/70 mb-6 flex items-center gap-2 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -274,10 +274,10 @@ export default function Services() {
                 </h3>
               </div>
             </div>
-            <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+            <p className="text-foreground/70 mb-4 text-sm leading-relaxed">
               Processamento completo da folha de pagamento mensal.
             </p>
-            <div className="text-muted-foreground mb-6 flex items-center gap-2 text-sm">
+            <div className="text-foreground/70 mb-6 flex items-center gap-2 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -349,10 +349,10 @@ export default function Services() {
                 </h3>
               </div>
             </div>
-            <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+            <p className="text-foreground/70 mb-4 text-sm leading-relaxed">
               Registro e documentação para contratação de colaboradores.
             </p>
-            <div className="text-muted-foreground mb-6 flex items-center gap-2 text-sm">
+            <div className="text-foreground/70 mb-6 flex items-center gap-2 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -423,10 +423,10 @@ export default function Services() {
                 </h3>
               </div>
             </div>
-            <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+            <p className="text-foreground/70 mb-4 text-sm leading-relaxed">
               Cálculo e processamento de rescisões trabalhistas.
             </p>
-            <div className="text-muted-foreground mb-6 flex items-center gap-2 text-sm">
+            <div className="text-foreground/70 mb-6 flex items-center gap-2 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -499,10 +499,10 @@ export default function Services() {
                 </h3>
               </div>
             </div>
-            <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+            <p className="text-foreground/70 mb-4 text-sm leading-relaxed">
               Elaboração da declaração de Imposto de Renda Pessoa Física.
             </p>
-            <div className="text-muted-foreground mb-6 flex items-center gap-2 text-sm">
+            <div className="text-foreground/70 mb-6 flex items-center gap-2 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -572,10 +572,10 @@ export default function Services() {
                 </h3>
               </div>
             </div>
-            <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+            <p className="text-foreground/70 mb-4 text-sm leading-relaxed">
               Emissão de certidões de regularidade fiscal.
             </p>
-            <div className="text-muted-foreground mb-6 flex items-center gap-2 text-sm">
+            <div className="text-foreground/70 mb-6 flex items-center gap-2 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -645,10 +645,10 @@ export default function Services() {
                 </h3>
               </div>
             </div>
-            <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+            <p className="text-foreground/70 mb-4 text-sm leading-relaxed">
               Análise e otimização da carga tributária.
             </p>
-            <div className="text-muted-foreground mb-6 flex items-center gap-2 text-sm">
+            <div className="text-foreground/70 mb-6 flex items-center gap-2 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -720,10 +720,10 @@ export default function Services() {
                 </h3>
               </div>
             </div>
-            <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+            <p className="text-foreground/70 mb-4 text-sm leading-relaxed">
               Elaboração de balanço e demonstrações contábeis.
             </p>
-            <div className="text-muted-foreground mb-6 flex items-center gap-2 text-sm">
+            <div className="text-foreground/70 mb-6 flex items-center gap-2 text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

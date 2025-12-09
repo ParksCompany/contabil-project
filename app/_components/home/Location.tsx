@@ -1,11 +1,11 @@
 export default function Location() {
     return(
-        <section className="section-padding bg-muted/50">
+        <section className="section-padding bg-muted/30">
             <div className="container-custom">
-                <div className="text-center max-w-2xl mx-auto flex flex-col gap-4">
+                <div className="text-center max-w-2xl mx-auto flex flex-col gap-4 mb-12">
                     <span className="inline-block text-sm font-semibold text-primary tracking-wide uppercase">Localização</span>
                     <h2 className="text-3xl md:text-4xl font-bold text-foreground">Venha nos visitar</h2>
-                    <p className="text-muted-foreground text-lg">Estamos localizados em um ponto estratégico de São Paulo, prontos para atendê-lo.</p>
+                    <p className="text-foreground/70 text-lg">Estamos localizados em um ponto estratégico de São Paulo, prontos para atendê-lo.</p>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-8">
                     <div className="flex flex-col gap-6 animate-fade-up lg:flex-[0_0_33.333%]">
@@ -19,7 +19,7 @@ export default function Location() {
                                 </div>
                                 <div className="flex flex-col gap-1">
                                     <h4 className="font-semibold text-foreground">Endereço</h4>
-                                    <p className="text-muted-foreground text-sm">Av. Paulista, 1000 - Bela Vista<br/>São Paulo - SP, 01310-100</p>
+                                    <p className="text-foreground/80 text-sm">Av. Paulista, 1000 - Bela Vista<br/>São Paulo - SP, 01310-100</p>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ export default function Location() {
                                 </div>
                                 <div className="flex flex-col gap-1">
                                     <h4 className="font-semibold text-foreground">Telefone</h4>
-                                    <p className="text-muted-foreground text-sm">(11) 3000-0000<br/>(11) 99000-0000</p>
+                                    <p className="text-foreground/80 text-sm">(11) 3000-0000<br/>(11) 99000-0000</p>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ export default function Location() {
                                 </div>
                                 <div className="flex flex-col gap-1">
                                     <h4 className="font-semibold text-foreground">E-mail</h4>
-                                    <p className="text-muted-foreground text-sm">contato@contabilidademodelo.com.br</p>
+                                    <p className="text-foreground/80 text-sm">contato@contabilidademodelo.com.br</p>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ export default function Location() {
                                 </div>
                                 <div className="flex flex-col gap-1">
                                     <h4 className="font-semibold text-foreground">Horário</h4>
-                                    <p className="text-muted-foreground text-sm">Segunda a Sexta: 8h às 18h<br/>Sábado: 8h às 12h</p>
+                                    <p className="text-foreground/80 text-sm">Segunda a Sexta: 8h às 18h<br/>Sábado: 8h às 12h</p>
                                 </div>
                             </div>
                         </div>

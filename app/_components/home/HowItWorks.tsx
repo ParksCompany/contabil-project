@@ -1,6 +1,6 @@
 export default function HowItWorks() {
     return(
-        <section className="section-padding bg-muted/50">
+        <section className="section-padding bg-muted/30">
             <div className="container-custom">
                 <div className="text-center max-w-2xl mx-auto flex flex-col gap-4 mb-16">
                     <span className="inline-block text-sm font-semibold text-primary tracking-wide uppercase">
@@ -9,7 +9,7 @@ export default function HowItWorks() {
                     <h2 className="text-3xl md:text-4xl font-bold text-foreground">
                         Processo simples e transparente
                     </h2>
-                    <p className="text-muted-foreground text-lg">
+                    <p className="text-foreground/70 text-lg">
                         Em poucos passos você solicita um serviço e nossa equipe cuida de todo o resto.
                     </p>
                 </div>
@@ -33,7 +33,7 @@ export default function HowItWorks() {
                             <h3 className="text-xl font-semibold text-foreground">
                                 Escolha o Serviço
                             </h3>
-                            <p className="text-muted-foreground text-sm leading-relaxed">
+                            <p className="text-foreground/70 text-sm leading-relaxed">
                                 Navegue pela nossa lista de serviços e selecione o que melhor atende sua necessidade.
                             </p>
                         </div>
@@ -57,7 +57,7 @@ export default function HowItWorks() {
                             <h3 className="text-xl font-semibold text-foreground">
                                 Preencha os Dados
                             </h3>
-                            <p className="text-muted-foreground text-sm leading-relaxed">
+                            <p className="text-foreground/70 text-sm leading-relaxed">
                                 Complete o formulário com as informações necessárias para a realização do serviço.
                             </p>
                         </div>
@@ -80,7 +80,7 @@ export default function HowItWorks() {
                             <h3 className="text-xl font-semibold text-foreground">
                                 Envie a Solicitação
                             </h3>
-                            <p className="text-muted-foreground text-sm leading-relaxed">
+                            <p className="text-foreground/70 text-sm leading-relaxed">
                                 Sua solicitação é direcionada automaticamente para o setor responsável.
                             </p>
                         </div>
@@ -103,7 +103,7 @@ export default function HowItWorks() {
                             <h3 className="text-xl font-semibold text-foreground">
                                 Acompanhe o Status
                             </h3>
-                            <p className="text-muted-foreground text-sm leading-relaxed">
+                            <p className="text-foreground/70 text-sm leading-relaxed">
                                 Receba atualizações e acompanhe o andamento da sua solicitação.
                             </p>
                         </div>
