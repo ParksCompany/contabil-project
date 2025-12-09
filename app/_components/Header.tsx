@@ -1,5 +1,6 @@
 import { Button } from "@/app/_components/ui/button";
-import { Calculator, User } from "lucide-react";
+import { User } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
@@ -8,17 +9,8 @@ export default function Header() {
       <nav className="container-custom" aria-label="Global">
         <div className="flex h-16 items-center justify-between md:h-20">
           <Link href="/" className="group flex items-center gap-2">
-            <div className="bg-primary shadow-emerald-subtle group-hover:shadow-emerald-glow flex h-10 w-10 items-center justify-center rounded-lg transition-shadow duration-300">
-              <Calculator className="text-primary-foreground h-5 w-5" />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-lg leading-tight font-bold text-black">
-                Contabilidade
-              </span>
-              <span className="text-primary -mt-0.5 text-xs font-medium">
-                Modelo
-              </span>
-            </div>
+            <Image src="/logo.png" width={150} height={100} alt="Logo Assessoria Contabil"
+            />
           </Link>
           <div className="hidden items-center gap-1 md:flex">
             <Link

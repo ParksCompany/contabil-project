@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
 import { ThemeProvider } from "@/app/_components/Providers";
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Toaster } from "sonner";
 import "./globals.css";
-import { Children } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export const metadata: Metadata = {
   title: "Contabilidade Modelo - Soluções Contábeis Completas",
-  description: "Contabilidade Modelo oferece soluções contábeis completas para sua empresa. Abertura de empresa, folha de pagamento, declarações fiscais e muito mais.",
+  description:
+    "Contabilidade Modelo oferece soluções contábeis completas para sua empresa. Abertura de empresa, folha de pagamento, declarações fiscais e muito mais.",
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning className="overflow-x-hidden">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden antialiased`}
         suppressHydrationWarning
       >
         <ThemeProvider
@@ -38,7 +38,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>
